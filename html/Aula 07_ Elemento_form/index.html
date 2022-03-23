@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 07</title>
+</head>
+<body>
+    <!--tag ctrl, shift e p... e dps escrever abbr, e quebrar linha-->
+    <!--elemento é igual tag-->
+    <!--tag - form para formulario, cadastro-->
+    <!--tag name é o nome do formulario-->
+    <!-- tag action é o url para onde vai ser enviado-->
+    <!--tag imput aonde o usuario entra com os dados-->
+    <!--max quantidade de caractere-->
+    <!-- size tamanho do formulario  -->
+    <!-- text indica que é pra digitar -->
+    <!-- tag type indica o tipo -->
+    <!-- tag required indica que é obrigatório preencher-->
+    <!--radio so pode escolher uma opção-->
+    <!-- checkbox pode escolher mais de uma alternativa -->
+    <!--submit botao de enviar-->
+    <!--text é a caixa do formulario-->
+    <!--value pra indentificar o codigo mais rapido-->
+    
+
+    <header>
+    <nav>
+        <h2>Elementos de Formulario</h2>
+        <ul>in
+        <li><a href="#">put e label</a></li>
+        <li><a href="#">checkbox e radio</a></li>
+        <li><a href="#">select e datalist</a></li>
+        <li><a href="#">textarea</a></li>
+        <li><a href="#">fieldset e legend</a></li>
+        <li><a href="#">Atributo action do elemento form e elemento output</a></li>
+        </ul>
+
+    </nav>
+    </header>
+    
+    <main>
+        
+        <fieldset>
+            <legend>Texto poético</legend>
+            <form method="post" action="brunoaluisiosilva@gmail.com" name="Churrasco">
+                <label for="cTipocarne">tipos carne</label>
+                <input type="required" id="cTipocarne" type="text">
+                <!--Radio-->
+                <p>Qual sua cor preferida</p>
+                <input type="radio" name="cor" id="I">
+                <label for="I">Amarelo</label>
+                <br>
+        
+                <input type="radio" id="C" name="cor">
+                <label for="C">Azul</label>
+        
+                <!--Checkbox-->
+                <p>Quais cidade voce ja visitou</p>
+                <input type="checkbox" name="vCidade1" id="Sp1" value="sao paulo">
+                <label for="Sp1">São Paulo</label>
+        
+                <input type="checkbox" name="vCidade" id="Rj">
+                <label for="Rj">Rio de Janeiro</label>
+        
+                <input type="checkbox" name="vCidade" id="Pe">
+                <label for="Pe">Pernambuco</label>
+             
+                <!--select lista suspensa-->
+                <label for="">Qual o melhor time</label>
+                <select name="" id="">
+                    <option value="saoPaulo">Corinthians</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="psg">Psg</option>
+                    <option value="barcelona">Barcelona</option>
+                </select>
+                <br>
+        
+                <!-- Tipo range -->
+                0
+                <input type="range" list="valor_01" name="1" id="10" min="1" max="10">
+                100
+                <datalist id="valor_01">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+        
+                </datalist>
+        
+                <!--  tag - Textarea, cols é coluna, rows é linha, placeholder
+                     pra deixar feedback dentro da caixa de comentário-->
+                     <!-- class pra agrupar a mesma configuração -->
+                     <!-- id para uma unica tag de configuração -->
+                     <!-- fieldset fica com dentro de um quadrado -->
+                     <!-- legend para legenda -->
+                     <br>
+                <textarea name="feedback" id="aFeedback" cols="30" rows="10" placeholder="Feedback:"></textarea>
+        
+        
+        
+                <!--datalist lista pré definida-->
+                
+                <!-- <label for="">tipos de carne</label>  -->
+                <label for="cTipocarne">tipo carne</label>
+                <input id="cTipoCarne" type="text" required >
+                <input type="text" size="50" maxlength="10" required name="Quero inserir uma informação sobre Churrasco">
+                <input type="submit" name="Enviar">
+                <br>
+        </fieldset>
+        </form>
+
+    </main>
+    
+
+</body>
+</html>

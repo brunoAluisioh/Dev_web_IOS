@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+<style>
+    body {
+        background-color: rgb(15, 15, 15);
+        color: rgba(10, 238, 181, 0.712);
+    }
+</style>
+<body>
+    <main>
+        <fieldset>
+            <h1><mark style="background-color: rgb(255, 255, 255);">Questionário:</mark></h1>
+
+            <form action="brunoaluisiosilva@gmail.com" name="cadastroUsuario">
+                <label for="nome">Nome:</label>
+                <input type="text" required="required" size="15" maxlength="15" id="nome"> <br> <br>
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" required="required" size="01" maxlength="3"> <br> <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" required="required" size="30"> <br> <br>
+                
+                <p><strong>O quanto você está satisfeito com o nosso atendimento ao cliente?</strong></p>
+                <input type="radio" id="extremamente" name="extremamente">
+                <label for="satisfação">Extremamente</label> <br>
+            
+                <input type="radio" id="muito" name="muito">
+                <label for="satisfação">Muito</label> <br>
+                <input type="radio" id="moderadamente" name="moderadamente">
+                <label for="satisfação">Moderadamente</label> <br>
+                <input type="radio" id="pouco" name="pouco">
+                <label for="satisfação">Pouco</label> <br>
+                <input type="radio" id="nada" name="nada">
+                <label for="satisfação">Nada</label> <br>
+            
+                <!--Radio-->
+                <p><strong>Você indicaria a loja para um amigo?</strong></p>
+                <label for="indicação">Sim</label>
+                <input type="radio" id="sim" name="simnao">
+                <label for="indicação">Não</label>
+                <input type="radio" id="não" name="simnao">
+
+                <!--Checkbox-->
+                <p><strong>O que você mais gostou da loja?</strong></p>
+                <label for="doces">Doces</label>
+                <input type="checkbox" id="doces"> <br>
+                <label for="ambiente">Ambiente</label>
+                <input type="checkbox" id="ambiente"> <br>
+                <label for="entrega">Entrega via app</label>
+                <input type="checkbox" id="entrega"> <br>
+                <label for="atendimento">Atendimento</label>
+                <input type="checkbox" id="atendimento"> <br>
+                <label for="valores">Valores</label>
+                <input type="checkbox" id="valores"> <br> <br>
+                <label for="sobremesaSalgado"><strong>Qual a sobremesa ou salgado você comprou no seu último pedido?</strong></label>
+                <input type="text" size="20" required="required" id="sobremesaSalgado"> <br> <br>
+
+                <!-- Tipo select -->
+                <label for="loja"><strong>Em qual loja você foi atendido(a)?</strong></label>
+                <select name="loja" id="loja">
+                    <option value=""></option>
+                    <option value="aclimacao">Aclimação</option>
+                    <option value="liberdade">Liberdade</option>
+                    <option value="tatuape">Tatuapé</option>
+                    <option value="saoJoaquim">São Joaquim</option>
+                </select>
+
+                <p><strong>Qual a sua vontade de voltar ao restaurante?</strong></p>
+                0
+                <input type="range" list="avaliação_1" name="1" id="10" min="1" max="10">
+                10
+                <datalist id="avaliação_1">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+                <br> <br>
+            
+                <textarea name="feedback" id="afeedback" placeholder="Deixe aqui seu Feedback:" cols="40" rows="10"></textarea>
+                <br>
+                <input type="submit" name="Enviar">
+            </form>
+        </fieldset>
+    </main>
+    
+    <footer>
+        <p>
+           &copy; <strong><small>Sweet and Love</small></strong> 
+           <br> 
+           <em><small>Todos os direitos reservados 2022.</small></em>
+        </p>
+    </footer>
+    
+</body>
+</html>
