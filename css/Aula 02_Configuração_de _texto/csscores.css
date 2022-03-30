@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+h1 {
+    background-color: black;
+    color: rgb(136, 255, 0);
+}
+
+h2 {
+    color: #bb2355;
+}
+
+li {
+    color: #99f;
+}
+
+p {
+    color: hsl(120, 100%, 25%);
+}
