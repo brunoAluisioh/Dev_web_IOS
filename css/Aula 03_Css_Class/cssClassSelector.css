@@ -1,0 +1,38 @@
+@charset "utf-8";
+p {
+    background-color: #822626;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+p.fundo {
+    background-color: #690202;
+}
+.corTexto {
+    color: #690202;
+}
+li.fundo {
+    background-color: #525252;
+}
+body {
+    background-color: #e6ddbc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+h1 {
+    text-shadow: 3px 3px 5px rgb(244, 250, 244);
+    text-align: center;
+    color: #690202;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+footer {
+    background-color: aliceblue;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.75em;
+}
