@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+    background-color: bisque;
+    font-size: 25px;
+}
+#primeiro {
+    font-family:'Red Hat Mono', monospace;
+    background-color: rgb(95, 216, 238);
+}
+
+#secundo {
+    font-family:'Lobster', cursive;
+    background-color: burlywood;
+}
+
+#terceiro {
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(165, 250, 79);
+
+}
+h2 {
+    font-weight: 800;
+    font-style: italic;
+    font-size: 60px;
+}
+

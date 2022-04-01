@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Merriweather', serif;
+    background-color: #fbeec2;
+}
+.esqueci {
+    color: coral;
+}
+#esqueci2 {
+    color: blue;
+    background-color: #030d4f;
+}
+
+
+p#sobrenome {
+    color: rgb(23, 134, 79);
+    background-color: #ceecef;
+}
+
+section p{
+    color: rgb(39, 61, 66);
+    font-size: larger;
+    background-color: #ffc52c;
+    
+}
