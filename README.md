@@ -16,4 +16,6 @@
      <a href = "brunoaluisiosilva@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
     <a href="https://www.linkedin.com/in/bruno-aluisio-042abb201/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
     <a href="(11)93005-5056" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+    
+    ![Snake animation](https://github.com/brunoAluisioh/brunoAluisioh/blob/output/github-contribution-grid-snake.svg)
   </div>
