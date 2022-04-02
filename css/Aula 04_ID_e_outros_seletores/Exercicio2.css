@@ -1,0 +1,62 @@
+@charset "utf-8";
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: gray;
+}
+#espessura {
+    font-weight: 600;
+    background-color: rgb(40, 240, 67);
+}
+
+#dados {
+    font-family: cursive;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    color: rgb(40, 240, 67);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(105, 124, 112);
+}
+
+#cabeçalho {
+    color: black;
+    background-color: aliceblue;
+}
+
+nav {
+    text-align: center;
+}
+
+#primeiro {
+    background-color: rgb(231, 227, 227);
+    color: black;
+}
+
+#direito {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-size: 0.75em;
+}
+a {
+    color: black;
+    background-color: aliceblue;
+}
+
+#borda {
+    border: 1px solid black;
+}
+
