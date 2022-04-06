@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+p.exemplo-1 {
+    margin-top: 50px;
+    margin-right: 900px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+p.exemplo-2 {
+    padding-top: 50px;
+    padding-right: 900px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.box-1 {
+   background-color: rgb(39, 130, 146);
+   color: aliceblue;
+   border-right: 5px solid greenyellow;
+   border-left: 5px dashed rgb(4, 4, 94);
+   border-top: 5px dotted green;
+   border-bottom: 5px ridge red;
+   border-width: 8px;
+   border-bottom-width: 29px;
+   border-top-style: dotted;
+   padding: 10px;
+   margin: 20px;
+}
+
+.box-2 {
+   
+}
+
+
+* {
+    margin: 1;
+    padding: 0;
+    border: none;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 254, 254);
+    background-color: rgb(13, 13, 14);
+    border-bottom: 3px solid red;
+}
+
+h2 {
+    color: black;
+}
+
+body {
+    background-image: url('https://1.bp.blogspot.com/-jCv-yD0JRtY/UOs_kcdeXNI/AAAAAAAAUTM/GamAAi-9dpk/w1200-h630-p-k-no-nu/Wood-1.jpg');
+    color: aliceblue;
+}
+
+
+.modificado1 {
+    text-decoration: none;
+    color: rgb(116, 34, 216);
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    border: none;
+    background-color: black;
+    color: rgb(255, 251, 251);
+    padding: 10px 20px;
+    text-decoration: none;
+}
