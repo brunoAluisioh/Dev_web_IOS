@@ -46,9 +46,9 @@ figcaption {
     font-weight: bold;
     text-align: center;
     font-size: 1.6em;
-    text-shadow: 1px 1px 2px #e2dcdc;
+    text-shadow: 1px 10px 6px #fa3737;
     background-color: #000000;
-    color: #d1c7c7;
+    color: #e4e4e4;
 
 }
 figure{
