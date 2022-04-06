@@ -14,17 +14,19 @@ h1 {
  padding: 0.5em;
 }
 img {
- height: 240px;
- width: 320px;
+ height: 340px;
+ width: 620px;
 }
 figure {
- width: 320px;
+ width: 620px;
  padding: 5px;
  border: 2px solid #000000;
+
 }
 figcaption {
  text-align: center;
  font-family: Papyrus, fantasy;
+ 
 }
 footer {
  color: #333333;

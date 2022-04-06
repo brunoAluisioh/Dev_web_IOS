@@ -7,7 +7,7 @@ main {
 img {
     height: 340px;
     width: 620px;
-    border: 2px solid red;
+    
 }
 
 ul {
@@ -19,7 +19,8 @@ ul {
 p {
     font-size: 1.4em;
     font-weight: bold;
-    font-family: cursive
+    font-family: cursive;
+    text-indent: 3em;
 }
 
 h1 {
@@ -36,14 +37,25 @@ h2 {
     background-color: rgb(10, 10, 10);
     color: rgb(248, 0, 0);
     border: 4px solid rgb(226, 13, 13);
+    text-indent: 0.5em;
 }
 
 figcaption {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: bold;
-}
+    text-align: center;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 2px #e2dcdc;
+    background-color: #000000;
+    color: #d1c7c7;
 
+}
+figure{
+    width: 620px;
+    padding: 5px;
+    border: 3px solid rgb(248, 19, 19);
+}
 footer {
     text-align: center;
     font-size: 0.75em;
@@ -53,11 +65,15 @@ footer {
 }
 
 .modificado {
-    color: rgb(152, 141, 250);
+    color: rgb(128, 131, 163);
 }
 
 a {
     color: rgb(129, 127, 127);
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    
 }
 
 body {
@@ -67,5 +83,14 @@ body {
     background-size: cover;
     background-attachment: scroll;
     color: rgb(242, 246, 250);
+    background: op;
 }
 
+section.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.opacidade {
+    opacity: 0.5;
+}
