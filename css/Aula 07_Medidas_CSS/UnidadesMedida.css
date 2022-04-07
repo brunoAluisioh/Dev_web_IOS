@@ -12,6 +12,7 @@
     background-position: center center;
     height: 100vh;
     padding: 0 120px;
+    text-align: center;
 }
 
 #showcase h1 {
@@ -25,16 +26,22 @@
     margin-top: 0px;
 }
 
+#showcase ul, h2 {
+    text-align: left;
+    margin-top: 50px;
+}
+
 #showcase p {
     font-size: 28px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-style: oblique;
-    margin-bottom:23px;
+    margin-bottom: 23px;
     opacity: 0.6;
     font-weight: bold;
     border: 2px dashed rgb(0, 0, 0);
     text-align: center;
+    border-radius: 20px;
 }
 
 #lista h2{
@@ -48,7 +55,8 @@
      font-size: 1.2em;
      font-weight: bold;
      font-style: inherit;
-     border: 1px solid rgb(250, 201, 195);
+     border: 2px solid rgb(255, 255, 255);
+     padding: 5px;
  }
 
 
@@ -56,9 +64,11 @@
     font-size: 20px;
     text-decoration: none;
     color: #080808;
-    border: #000000 1px solid;
+    border: #000000 2px solid ;
     border-radius: 10px;
     padding: 10px 20px;
+    
+
 }
 
 
@@ -68,7 +78,10 @@
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
-    margin-top: 5px;
+    padding: 35px;
 }
 
+a {
+    margin-right: 1.5em;
+}
 
