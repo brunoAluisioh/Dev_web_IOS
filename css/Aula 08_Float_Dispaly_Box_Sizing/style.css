@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 650px;
+    height: 350px;
+}
+
+.img1 {
+    float: left;
+}
+
+.divisao {
+    margin-top: 20%;
+}
+
+.paragrafo {
+    clear: none;
+    padding: 15vh;
+}
+
+.img2 {
+    float: left;
+}
+
+.img3 {
+    float: right;
+}
+
+.div1 {
+    border: 1px solid black;
+
+}
+
+.div2 {
+    border: 1px solid black;
+}
+
+.linki {
+    text-decoration: none;
+}
+
+.container {
+    padding: 2em;
+}
