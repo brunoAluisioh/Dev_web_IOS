@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(156, 156, 149);
+}
+img {
+    width: 320px;
+    height: 170px;
+}
+
+.img1 {
+    float: none;
+}
+
+.img2 {
+    float: left;
+}
+
+.img3 {
+    float: right;
+}
+
+.img4 {
+    float: left;
+}
+
+.img5 {
+    float: right;
+}
+
+.divisao {
+    margin-top: 9%;
+}
+
+
+figure {
+    width: 320px;
+    padding: 5px;
+    border: 2px solid #000000;
+   
+}
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
+
