@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+img {
+    width: 520px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.img1 {
+    float: left;
+    width: 280px;
+    height: 180px;
+}
+
+h2 {
+    color: rgb(31, 172, 90);
+    padding: 12vh;
+    padding-left: 18%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px dashed black;
+}
+
+a:hover {
+    background-color: darkolivegreen;
+}
+
+header {
+    margin-bottom: 2%;
+}
+
+p::selection {
+    background-color: darkseagreen;
+}
+
+::selection {
+    background-color: red;
+    color: white;
+}
+
+p::first-letter {
+    background-color: black;
+    color: white;
+    font-size: 190%;
+}
+
+li:nth-child(1) {
+    background-color: green;
+}
+li:nth-child(4) {
+    background-color: green;
+}
+li:nth-child(6) {
+    background-color: green;
+}
+li:nth-child(8) {
+    background-color: green;
+}
+
