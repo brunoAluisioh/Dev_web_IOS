@@ -1,29 +1,9 @@
 @charset "utf-8";
 
 body {
-    padding: 2em;
-    background-color: rgb(124, 107, 107);
-}
-
-h1 {
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    text-shadow: 3px 3px 5px rgb(255, 10, 10);
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    background-color: #e4e4e4;
-    border: 2px dashed black;
-    opacity: 0.8;
-    border-radius: 10em;
-    width: 55%;
-    margin-left: 24%;
-    margin-bottom: 5%;
-}
-
-.img1 {
-    width: 200px;
-    height: 120px;
-    border: 2px dashed rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
+  padding: 2em;
+  background-color: rgb(0, 0, 0);
 }
 
 .botao {
@@ -41,54 +21,67 @@ h1 {
 }
 
 img {
-    width: 400px;
-    height: 230px;
+    width: 320px;
+    height: 170px;
 }
 
-.img2 {
+#img0 {
+    width: 200px;
+    height: 120px;
+    border: 2px dashed rgb(255, 254, 254);
+}
+
+.img1 {
     float: none;
 }
 
-.img3 {
+.img2 {
     float: left;
+}
+
+.img3 {
+    float: right;
 }
 
 .img4 {
-    float: right;
-}
-
-.editado {
-    margin-top: 4%;
-    margin-bottom: 18%;
-    background-color: #e4e4e4;
-    color: #000;
-}
-
-.img5 {
     float: left;
 }
 
-.img6 {
+.img5 {
     float: right;
 }
 
-.centro {
-    clear: none;
-    padding: 0vh;
-    background-color: #e4e4e4;
-    color: #000;
+figure {
+    width: 320px;
+    padding: 5px;
+    border: 2px dashed #0f0f0f;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-#lista li {
-    font-size: 1.2em;
+figcaption {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
     font-weight: bold;
-    font-style: inherit;
-    border: 1px solid rgb(12, 12, 12);
-    padding: 3px;
-    text-shadow: 3px 3px 5px rgb(255, 253, 253);
     text-align: center;
-    width: 35%;
-    margin-left: 31%;
+    font-size: 1.6em;
+    text-shadow: 1px 10px 6px #fa3737;
+    background-color: #000000;
+    color: #e4e4e4;
+}
+
+fieldset {
+    border: 1px dashed rgb(255, 255, 255);
+    background-color: black;
+    opacity: 0.9;
+    background-image: url('opacidadeimg.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#final {
+    padding: 5vh;
 }
 
 h2 {
@@ -104,84 +97,42 @@ h2 {
     margin-left: 25%;
 }
 
-.lista1 {
-    margin-left: 33%;
-    color: #fa3737;
+#lista li {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: inherit;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 3px;
+    text-shadow: 3px 3px 5px rgb(255, 0, 0);
+    text-align: center;
+    width: 35%;
+    margin-left: 31%;
+    color: rgb(238, 237, 237);
 }
 
 footer {
     font-weight: bold;
     font-size: small;
     font-style: italic;
+    color: rgb(243, 232, 232);
 }
 
-fieldset {
-    background-color: #0a0a0a;
-    opacity: 0.9;
-    color: #e4e4e4;
-    font-size: 1.1em;
-    border: 1px dashed beige;
+.centro {
+    padding-left: 28%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 ul {
     font-weight: bold;
     font-style: italic;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.ultimo {
-    color: #000;
-    background-color: #ff3c3c;
-}
-
-.p1 {
+    color: red;
+    opacity: 0.8;
+    font-size: 1.0em;
     background-color: #e4e4e4;
-    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.p2 {
-    background-color: #e4e4e4;
-    color: #000;
-}
-
-.cor {
-    color: #fa3737;
-}
-
-.hr1 {
-    margin-bottom: 4%;
-}
-
-.figure1 {
-    border: 2px solid rgb(248, 248, 248);
-    width: 400px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-right: 10px;
-    margin-right: 90%;
-    margin-left: 0%;
-}
-
-figcaption {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.6em;
-    text-shadow: 1px 10px 6px #fa3737;
-    background-color: #000000;
-    color: #e4e4e4;
-}
-
-
-figure {
-    margin-left: 0%;
-}
-.figure2 {
-    margin-right: 0%;
-    padding-left: 46%;
-}
