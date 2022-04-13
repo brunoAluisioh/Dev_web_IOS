@@ -1,14 +1,10 @@
 @charset "utf-8";
 
-
-h1 {
-    text-align: center;
-    font-size: 2.8em;
-    color: white;
-    padding-top: 5%;
+.container {
+    padding: 2em;
 }
+
 body {
-    background-color: #725436;
     background-image: url('anime1.JPEG');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,6 +13,15 @@ body {
     flex-grow: 1;
     flex-direction: column;
     color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8em;
+    color: white;
+    padding-top: 5%;
 }
 
 .background {
@@ -27,62 +32,110 @@ body {
     background-size: cover;
     margin: 1rem;
     border-radius: 12px;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 img {
-    width: 560px;
-    height: 330px;
+    width: 450px;
+    height: 260px;
 }
 
+.resumo {
+    border: 2px solid #344727;
+    background-color: #b1865ca9;
+    margin: 1.0rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 12px;
+}
 .img1 {
     float: left;
     margin-right: 2%;
+    border: 2px solid #c1c2bc;
 }
 
+.img1:hover {
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+.video {
+    border: 2px solid #344727;
+    background-color: #b1865ca9;
+    margin: 1.0rem;
+    padding: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.video iframe {
+    margin-right: 2%;
+    border: 2px solid #c1c2bc;
+}
 .img2 {
     float: left;
 }
 
-.resumo{
-    border: 2px solid black;
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 12px;
-    background-color: #b1865ca9;
-    font-size: 1.5em;
+strong {
+    color: #314a20;
+}
+li {
+    padding-bottom: 1.5rem;
 }
 
 
-.video {
-    border: 2px solid black;
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 12px;
-    background-color: #b1865ca9;
-    font-size: 1.5em;
-}
-.video iframe {
-    margin-right: 2%;
-}
-
-#resumo {
+.btn {
     text-decoration: none;
-    color: black;
-    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border: 2px solid #725436;
     padding: 1px;
-    background-color: white;
+    background-color: #c1c2bc;
+    font-size: 0.7em;
 }
+
+a:hover {
+    background-color: #314a20;
+    opacity: 0.5;
+}
+
 
 .noticia {
-    border: 2px solid black;
-    margin: 1rem;
-    padding: 2rem;
-    border-radius: 12px;
+    border: 2px solid #344727;
     background-color: #b1865ca9;
-    font-size: 1.5em;
+    margin: 1.0rem;
+    font-size: 1.5rem;
+    
+    border-radius: 12px;
 }
 
-figcaption {
-    padding-right: 30%;
+figure {
+    width: 450px;
+    padding: 5px;
+    border: 2px solid #c1c2bc;
 }
+
+.imgfinal:hover {
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+figcaption p::first-letter {
+    font-size: 150%;
+    color: #c1c2bc;
+    background-color: #725436;
+}
+
+footer p::before { 
+    content: "2022 ©| ";
+}
+
+footer p::after {
+    content: " |Bruno Aluisio";
+}
+
+p::selection {
+    background-color: #314a20;
+    color: #c1c2bc;
+}
+
