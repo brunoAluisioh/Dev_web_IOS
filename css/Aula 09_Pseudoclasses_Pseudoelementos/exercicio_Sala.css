@@ -14,7 +14,7 @@ img {
 
 h2 {
     color: rgb(31, 172, 90);
-    padding: 12vh;
+    padding: 8vh;
     padding-left: 18%;
 }
 
@@ -26,6 +26,7 @@ a {
 
 a:hover {
     background-color: darkolivegreen;
+    opacity: 0.5;
 }
 
 header {
