@@ -2,8 +2,19 @@
 
 h1 {
     text-align: center;
+    border: 2px solid black;
+    padding: 3%;
 }
-.col1{
+
+body {
+    background-image: url('btcfundo2.JPEG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2em;
+}
+.ativo1{
     float: left;
     width: 25%;
     padding: 8px;
@@ -11,7 +22,7 @@ h1 {
 }
 
 
-.col{
+.ativo{
     float: left;
     width: 50%;
     padding: 8px;
