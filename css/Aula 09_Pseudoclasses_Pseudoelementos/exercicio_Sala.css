@@ -3,7 +3,7 @@
 img {
     width: 520px;
     height: 350px;
-    border: 2px solid black;
+    border: 2px solid rgb(240, 226, 226);
 }
 
 .img1 {
@@ -12,10 +12,24 @@ img {
     height: 180px;
 }
 
+body {
+    background-image: url('cidadeimg2.JPEG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2em;
+}
+
 h2 {
-    color: rgb(31, 172, 90);
-    padding: 8vh;
-    padding-left: 18%;
+    color: rgb(20, 124, 64);
+    padding: 5vh;
+    padding-left: 25%;
+    margin-bottom: 7%;
 }
 
 a {

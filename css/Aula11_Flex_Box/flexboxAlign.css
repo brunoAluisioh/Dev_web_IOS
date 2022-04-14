@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+img {
+    width: 300px;
+    height: 280px;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    font-weight: bolder;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px white;
+    background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=903cdb9b3d&attid=0.1&permmsgid=msg-f:1730098133852200441&th=18028b1616d39df9&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ--GBXgALBHxhbZOKDn-v5knAPm3qHSQz6VE6y9PtFEMhBK4LX4gnP2DbGexua97-guvuAgPipte-l6f3SYnLmWuAmxbWC4UQsSlJrrAZRAwRGDvRlNvL0DgqU&disp=emb&realattid=889b1a739b99ccfe_0.1.1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0em 5em 2em;
+}
+
+body {
+    padding: 2em;
+    background-image: url('torcida.JPEG');
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px white;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container div {
+    border: 2px rgb(255, 255, 255) dashed;
+    padding: 10px;
+}
+
+.item-box-1 {
+    flex: 3;
+    order: 2;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    
+}
+
+.item-box-2 {
+    flex: 5;
+    order: 1;
+    background-color: red;
+    color: aliceblue;
+}
+
+.item-box-3 {
+    flex: 5;
+    order: 4;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+.item-box-4 {
+    flex: 5;
+    order: 3;
+    background-color: rgb(69, 121, 189);
+    color: white;
+    align-self: flex-end;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    margin-top: 2%;
+    border: 2px solid black;
+    margin: 3em 31em 0em;
+}
