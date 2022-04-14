@@ -103,12 +103,12 @@ body {
 }
 
 @media(max-width:768px) {
-    .col {
+    .ativo {
     width: 100%;
     }
 }
 @media(max-width:768px) {
-    .col1 {
+    .ativo1 {
     width: 100%;
    }
 }
