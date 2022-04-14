@@ -2,8 +2,12 @@
 
 h1 {
     text-align: center;
-    border: 2px solid black;
-    padding: 3%;
+    text-shadow: 3px 3px 5px white;
+    font-size: 2.7em;
+}
+
+hr {
+    width: 15cm;
 }
 
 body {
@@ -38,24 +42,58 @@ body {
     padding: 0;
 }
 
-.price-box .header {
+.price-box .titulo {
     background-color: #111;
     color: #fff;
     font-size: 25px;
 }
 
-.price-box .header.header-green {
- background: #4caf50;
+.price-box .titulo-green {
+    background: green;
+    font-size: 25px;
+    color: white;
 }
+.price-box .titulo-blue {
+    background: blue;
+    color: white;
+    font-size: 25px;
+}
+
+.price-box .titulo-marrom {
+    background: rgb(87, 55, 18);
+    color: white;
+    font-size: 25px;
+}
+
+.price-box .titulo-yellow {
+    background: rgb(248, 215, 26);
+    color: white;
+    font-size: 25px;
+}
+
+.price-box .titulo-black {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.price-box .titulo-red {
+    background: red;
+    color: white;
+    font-size: 25px;
+}
+
 
 .price-box li {
-    padding: 20px;
-    border-bottom: 20px solid #eee;
+    padding: 10px;
+    border-bottom: 6px solid #eee;
     text-align: center;
+    font-weight: bold;
+    color: black;
 }
-
-.btn1 {
+.btn {
     background-color: #4caf50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     color: #fff;
     padding: 10px 15px;
@@ -73,4 +111,15 @@ body {
     .col1 {
     width: 100%;
    }
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    margin-top: 2%;
+    border: 2px solid rgb(255, 255, 255);
+    
 }
