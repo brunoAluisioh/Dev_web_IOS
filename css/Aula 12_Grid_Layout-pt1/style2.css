@@ -1,0 +1,64 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+}
+
+.container{
+    display: grid; /*Definindo que vamos trabalhar com grids*/
+    grid-template-columns: 70px 70px; /*definir a quantidade de colunas*/
+    grid-template-rows: 70px 70px 70px; /*definir a quantidade de linha*/
+/* grid-template-areas: "primeiro primeiro primeiro"
+"segundo segundo ." "quarto quarto terceiro"; */ /*dar nomes aos elemento no HTML e definir quantas colunas e linhas o grid terá*/
+/*grid-template: ". primeiro ." 75px
+"segundo segundo ." 25% / auto 50px auto;*/ /*junção de template-columns/template-row/template-areas*/
+   
+    /*align-content: center;*/ /*alinha o grid por inteiro na vertical*/
+    /* justify-content: center; */ /*alinha o grid por inteiro na horizontal*/
+    /* place-content: start; */ /*junção de aling-content e justify-content*/
+
+   
+    /* align-items: center; */ /*alinha o item na vertical*/
+    /* justify-items: center; */ /*alinha o item na horizontal*/
+    /* place-items: center; */ /*junção de align-items e justify-items*/
+    /* column-gap: 10px;
+    row-gap: 30px; */
+    border: solid 2px #000;
+}
+
+.tam-item{
+    width: 100px;
+    height: 100px;
+    border: solid 2px #000;
+}
+
+.item-1{
+    background-color: blue;
+    /* grid-area: primeiro; */
+}
+
+.item-2{
+    background-color: brown;
+    /* grid-area: segundo; */
+}
+
+.item-3{
+    background-color: cornflowerblue;
+    /* grid-area: terceiro; */
+}
+
+.item-4{
+    background-color: teal;
+    /* grid-area: quarto; */
+}
+
+.item-5{
+    background-color: khaki;
+    /* grid-area: quarto; */
+}
+
+.item-6{
+    background-color: purple;
+    /* grid-area: quarto; */
+}
