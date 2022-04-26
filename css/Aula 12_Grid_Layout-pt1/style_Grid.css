@@ -50,8 +50,8 @@
 }
 
 @media(max-width:768px){
-    .conatiner-galeria {
-        grid-template-columns: repeat(6,1fr);
+    .container-galeria {
+        grid-template-columns: repeat(1,1fr);
         grid-auto-rows: 50vh;
     }
 
