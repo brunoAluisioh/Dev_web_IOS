@@ -8,12 +8,13 @@
     <title>Exercício Aula 16</title>
 </head>
 
-<body class="bg-secondary">
+<body
+    style="background-image: url('https://images.alphacoders.com/912/912528.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
     <nav class="navbar navbar-expand-lg navbar-warning bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand text-warning fw-bold fs-5" style="font-style: italic;" href="#">
-                <img src="./img_exercicio/header.jpg" alt="" width="140" height="78"
-                    class="d-inline-block align-text-center">
+                <img src="https://cdn.pixabay.com/photo/2016/03/31/21/33/greeting-1296493_960_720.png" alt="" width="140" height="78"
+                    class="d-inline-block align-text-center"> 
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -42,7 +43,7 @@
                             <li><a class="dropdown-item" href="#">Canal do Youtube</a></li>
                             <li><a class="dropdown-item" href="#">Ajuda</a></li>
                         </ul>
-                    </li>
+                    </li> 
                 </ul>
             </div>
 
@@ -59,10 +60,10 @@
         </div>
     </header>
 
-    <section class="container">
+    <section class="container text-light border border-dark border-3 bg-light" style="opacity: 0.8;">
         <!-- Formulários -->
-        <form action="#">
-            <h2>Sala Vip <br> Formulário</h2>
+        <form action="#" class="text-dark fs-5">
+            <h2 style="font-style: italic;">Sala Vip - Formulário</h2>
             <hr>
             <label class="form-label">Nome Completo</label>
             <input type="text" class="form-control" placeholder="Adicione o Nome">
@@ -72,8 +73,6 @@
 
             <label>Feedback</label>
             <textarea class="form-control" placeholder="Adicione um feedback:"></textarea>
-            <br>
-            <hr>
 
             <!-- (Selecionar) formularios -->
             <label class="fs-5">Perfil de Investidor:</label>
@@ -83,8 +82,6 @@
                 <option value="arrojado">Arrojado</option>
                 <option value="outro">Outro</option>
             </select>
-            <br>
-            <hr>
 
             <!-- Lista -->
             <label for="exampleDataList" class="form-label">Cidade</label>
@@ -98,85 +95,132 @@
                 <option value="Outra"></option>
             </datalist>
             <br>
-            <hr>
 
-             <!-- Paleta de cor -->
-             <label for="exampleColorInput" class="form-label">Selecionar cor favorita</label>
-             <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#021BFC"
-                 title="Escolha a sua Cor">
-             <br>
-             <hr>
-
-            <section class="container">
-                <!-- Tabela Primeiro Exemplo -->
-                <table class="table table-striped table-dark text-success ">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Plano Mensal</th>
-                            <th scope="col">Plano Trimestral</th>
-                            <th scope="col">Plano Anual</th>
-                        </tr>
-                    </thead>
-        
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>R$: 49.90</td>
-                            <td>R$: 120.00</td>
-                            <td>R$: 550.00</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Pix</td>
-                            <td>Transferência Bancária</td>
-                            <td>Transferência em Criptomoeda</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button></td>
-                            <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button></td>
-                            <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <br>
-                <hr>
-
-            <!-- Enviar arquivos -->
-            <label class="form-label">Preencha o formulário <br> Anexe o comprovante</label>
-            <input type="file">
+            <!-- Paleta de cor -->
+            <label for="exampleColorInput" class="form-label">Selecione cor favorita</label>
+            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#021BFC"
+                title="Escolha a sua Cor">
             <br>
-            <span class="form-text">
-                Apenas arquivos png e jpg.
-            </span>
+            <hr>
+        </form>
+
+        <section class="container">
+            <!-- Tabela Primeiro Exemplo -->
+            <table class="table table-striped table-dark text-success">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Plano Mensal</th>
+                        <th scope="col">Plano Trimestral</th>
+                        <th scope="col">Plano Anual</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>R$: 49.90</td>
+                        <td>R$: 120.00</td>
+                        <td>R$: 550.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Pix</td>
+                        <td>Transferência Bancária</td>
+                        <td>Transferência em Criptomoeda</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button>
+                        </td>
+                        <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button>
+                        </td>
+                        <td> <button type="submit" class="btn-outline-dark text-warning btn-sm">Assine aqui</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <br>
             <hr>
 
-            <!-- Cards -->
-            <section class="container">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img_exercicio/card.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Mentoria Day Trade</h5>
-                        <p class="card-text">Mentoria com o especialista em análise do mercado de criptomoedas Bruno
-                            Aluisio. São 4 meses de estudo onde vai aprender a analisar gráficos e se posicionar de
-                            maneira simples e segura, tendo uma visão clara do mercado macro e historicamente com
-                            padrões, movimentos e a magia da Fibonacci extensiva, e é claro todas as minhas estratégias
-                            que adquirir nos meus anos como analista gráfico.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Acompanhamento ao Vivo</strong>
-                        <li class="list-group-item"><strong>Início 26/05/2022</strong></li>
-                    </ul>
-                    <a href="#" class="btn btn-dark">Clique aqui e se inscreva</a>
+            <!-- Tabela Segundo Exemplo -->
+            <table class="table table-bordered table-hover table-sm border border-dark border-2">
+                <caption>Capital investido mensalmente</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Criptomoeda</th>
+                        <th scope="col">Capital</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-dark">
+                        <td>Bitcoin</td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Ethereum</td>
+                        <td>$500</td>
+
+                    </tr>
+                    <tr class="table-danger">
+                        <td>Litecoin</td>
+                        <td>$250</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>Ripple</td>
+                        <td>$250</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <hr>
+        </section>
+
+        <!-- Enviar arquivos -->
+        <label class="form-label text-dark">Preencha o formulário <br> Anexe o comprovante</label>
+        <input type="file">
+        <br>
+        <span class="form-text">
+            Apenas arquivos png e jpg.
+        </span>
+        <br>
+        <hr>
+
+        <!-- Cards -->
+        <section class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="./img_exercicio/card.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Mentoria Day Trade</h5>
+                    <p class="card-text text-dark">Mentoria com o especialista em análise do mercado de criptomoedas
+                        Bruno Aluisio. São 4 meses de estudo onde vai aprender a analisar gráficos e se posicionar de
+                        maneira simples e segura, tendo uma visão clara do mercado macro e historicamente com
+                        padrões, movimentos e a magia da Fibonacci extensiva, e é claro todas as minhas
+                        estratégias que adquirir nos meus anos como analista gráfico.</p>
                 </div>
-                <br>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Acompanhamento ao Vivo</strong>
+                    <li class="list-group-item"><strong>Início 26/05/2022</strong></li>
+                </ul>
+                <a href="#" class="btn btn-dark">Clique aqui e se inscreva</a>
+            </div>
+            <br>
+            <hr>
+        </section>
+
+        <!--footer-->
+        <section class="container text-dark text-center fw-bold ">
+            <footer>
+                <p><small>2022 &copy; | Todos os direitos reservados | Bruno Aluisio</small>
                 <hr>
+                </p>
+            </footer>
+        </section>
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-                    crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+            crossorigin="anonymous"></script> 
 
+    </section>
 
 </body>
