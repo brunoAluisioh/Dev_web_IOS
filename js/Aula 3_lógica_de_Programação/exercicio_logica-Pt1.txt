@@ -1,9 +1,10 @@
+Anotações:
 (AND) = é necessário que as duas suposicoes sejam verdadeiras
 (OR) = é necessário que uma das possibilidades seja verdadeira para que o contexto geral seja verdadeiro 
 (NOT) = tem que ser contrário do resultado em que deve ser 
 
 
-1) Em um edifício com apartamentos somente nos andares de 1° ao
+1-) Em um edifício com apartamentos somente nos andares de 1° ao
 4° , moram 4 meninas, em andares distintos: Joana, Yara, Kelly e
 Bete, não necessariamente nessa ordem. Cada uma delas tem
 um animal de estimação diferente: gato, cachorro, passarinho e
@@ -20,6 +21,9 @@ e) O gato é o animal de estimação da menina que mora no 1º
 andar.
 f) Yara mora no 4º andar e tem um cachorro.
 
+RESPOSTA: Alternativa Correta letra F
+
+Resolução:
 do 1 andar ao 4 andar 
 MORAM 4 MENINAS
 joana, kelly, yara e bete 
@@ -31,13 +35,14 @@ joana mora um andar acima do de kelly que tem o passarinho
 e não mora no segundo andar 
 
 kelly 1 andar tem o passarinho
-joana 2 andar tem o gato
-bete  3 andar tem a tartaruga
-yara  4 andar tem o cachorro 
-
-RESPOSTA: alternativa correta letra F 
+Joana 2 andar tem o gato
+Bete  3 andar tem a tartaruga
+Yara  4 andar tem o cachorro 
 
 
+
+2-)
+RESPOSTA:
 
 P |Q|P OR Q| P AND Q | P NOT |
 V |V|  V   |   V     |    F  |
@@ -46,7 +51,7 @@ F |V|  V   |   F     |    V  |
 F |F|  F   |   F     |    V  |
 
 
-3) Quando chove, o gato fica no quarto ou no sótão.
+3-) Quando chove, o gato fica no quarto ou no sótão.
 Quando chove, o gato fica no quarto ou no sótão.
 Quando o gato está no quarto, o rato está em sua toca, e o queijo,
 na geladeira.
@@ -58,7 +63,7 @@ Então onde estão o gato e o rato?
 RESPOSTA: O Gato está no sótão, e o rato está no quarto. 
 
 
-4) Quatro amigas combinaram de aproveitar o dia de Sol na piscina.
+4-) Quatro amigas combinaram de aproveitar o dia de Sol na piscina.
 Elas estão lado a lado, prontas para mergulharem. Cada uma está
 com um maiô de uma cor e está usando um protetor solar de
 determinado fator de proteção (FPS). Cabe a você seguir as dicas
@@ -86,13 +91,100 @@ A menina de maiô Branco está em uma das pontas.
 
 RESPOSTA: 
 
-4 MENINAS 
-4 CORES DE MAIO
-4 PROTETOR DIFERENTE 
-UMA DO LADO DA OUTRA 
+1 POSIÇÃO = GATO/ SUCO DE LARANJA / 11 ANOS / RAQUEL / MAIÔ BRANCO / FPS 45
+2 POSIÇÃO = PASSARO/ SUCO LIMONADA / FPS 55 / VIVIAN / MAIÔ AZUL/ 10 ANOS
+3 POSIÇÃO = CACHORRO/ SUCO DE MARACUJÁ / 9 ANOS / MAIÔ AMARELO / BRUNA / FPS 40
+4 POSIÇAO = PEIXE/ SUCO DE MORANGO / 8 ANOS / MAIÔ VERDE / FPS 50 /ANA 
 
-1 POSIÇÃO = GATO/ SUCO DE LARANJA / 11 ANOS / RAQUEL / MAIO BRANCO / FPS 45
-2 POSIÇÃO = PASSARO/ SUCO LIMONADA / FPS 55 / VIVIAN / MAIO AZUL/ 10 ANOS
-3 POSIÇÃO = CACHORRO/ SUCO DE MARACUJÁ / 9 ANOS / MAIO AMARELO / BRUNA / FPS 40
-4 POSIÇAO = PEIXE/ SUCO DE MORANGO / 8 ANOS / MAIO VERDE / FPS 50 /ANA 
+EXERCÍCIO DE CASA:
+
+1-) 
+função início
+console.log('Exercício algoritmo');
+
+let salarioAtual = x 
+let reajuste = 13%
+
+escreva ("informe o salário mensal atual")
+console.log (salarioAtual)
+escreva ("informe o percentual de reajuste salarial)
+console.log (reajuste)
+
+novoSalario = ("salarioAtual*reajuste")
+console.log = (novoSalario)
+salarioReajustado = ("valor do novo salário é de: novoSalario+reajuste.)
+console.log ( {salarioAjustado} )
+
+função fim do algoritmo
+
+2-)
+ALUNOS| NOTAS|
+Ana   |   8  | 
+João  |   9  | Soma total: 30 dividido por 4 bimestre = Mediana de 7,5 
+Maria |   7  |
+Pedro |   6  | 
+RESPOSTA: As notas estão acima da média. 
+
+3-)
+Receita de bolo de chocolate baseado em algoritmo (lógica de programação)
+
+função verificar ingredientes
+1° Início do algoritmo
+2° 2 xícaras de farinha de trigo;
+3° 3 ovos;
+4° 2 xícaras de açucar;
+5° 1 colher (sopa) de fermento em pó;
+6° 1/2 xícara (chá) de leite;
+7° 1 xícara (chá) de chocolate ou achocolatado; 
+
+função cobertura 
+8° 1 colher (sopa) de margarina 
+9° 3 colheres (sopa) de chocolate ou achocolatado
+10° 1 xícara (chá) de açucar refinado
+
+Todos os ingredientes solicitados?
+SE SIM -> separar todos os ingredientes e avançar próxima etapa.
+SE NÃO -> interromper modo, e comprar ingredientes.
+
+função verificar utensílios 
+11° Assadeira redonda 
+12° Batedeira ou Liquidificador 
+13° Forno 
+14° Panela
+15° Colher
+
+Todos os utensílios solicitados?
+SE SIM -> separar utensílios e avançar próxima etapa
+SE NÃO -> interromper modo, e comprar utensílios
+
+função modo de preparo
+16° Pegue os ovos um de cada vez, e quebre com a colher  
+17° Despeja em um mini copo a clara do ovo, "verificar se está estragado"
+18° Derrame a clara do ovo no liquidificador e faça o mesmo procedimento x2 com os demais ovos
+19° Jogue a casca do ovo no lixo
+20° Ligue o liquidificador na tomada e bata os ovos por 5 minutos
+21° Acrescentar aos poucos os demais ingredientes, exceto o fermento 
+22° Depois de bater acrescente então o fermento
+23° Colocar em uma assadeira redonda e enfarinhada
+24° Levar para assar em forno médio, pré aquecido por 45 minutos, ou até dourar.
+25° Retirar do forno e por sobre a mesa
+
+função cobertura
+26° Pegue uma panela, ponha no fogão e coloque fogo baixo
+27° Ponha os ingredientes conforme solicitados, a margarina com açucar
+28° Acrescente aos poucos o chocolate na panela
+29° Deixe ferver, e desligue o fogão
+30° Retirar do fogão e despejar sobre o bolo ainda quente logo após o bolo ficar pronto.
+31° Fim do algoritmo
+
+
+
+
+
+
+
+
+
+
+
 
