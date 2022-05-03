@@ -1,0 +1,51 @@
+3-)
+Receita de bolo de chocolate baseado em algoritmo (lógica de programação)
+
+função verificar ingredientes
+1° Início do algoritmo
+2° 2 xícaras de farinha de trigo;
+3° 3 ovos;
+4° 2 xícaras de açucar;
+5° 1 colher (sopa) de fermento em pó;
+6° 1/2 xícara (chá) de leite;
+7° 1 xícara (chá) de chocolate ou achocolatado; 
+
+função cobertura 
+8° 1 colher (sopa) de margarina 
+9° 3 colheres (sopa) de chocolate ou achocolatado
+10° 1 xícara (chá) de açucar refinado
+
+Todos os ingredientes solicitados?
+SE SIM -> separar todos os ingredientes e avançar próxima etapa.
+SE NÃO -> interromper modo, e comprar ingredientes.
+
+função verificar utensílios 
+11° Assadeira redonda 
+12° Batedeira ou Liquidificador 
+13° Forno 
+14° Panela
+15° Colher
+
+Todos os utensílios solicitados?
+SE SIM -> separar utensílios e avançar próxima etapa
+SE NÃO -> interromper modo, e comprar utensílios
+
+função modo de preparo
+16° Pegue os ovos um de cada vez, e quebre com a colher  
+17° Despeja em um mini copo a clara do ovo, "verificar se está estragado"
+18° Derrame a clara do ovo no liquidificador e faça o mesmo procedimento x2 com os demais ovos
+19° Jogue a casca do ovo no lixo
+20° Ligue o liquidificador na tomada e bata os ovos por 5 minutos
+21° Acrescentar aos poucos os demais ingredientes, exceto o fermento 
+22° Depois de bater acrescente então o fermento
+23° Colocar em uma assadeira redonda e enfarinhada
+24° Levar para assar em forno médio, pré aquecido por 45 minutos, ou até dourar.
+25° Retirar do forno e por sobre a mesa
+
+função cobertura
+26° Pegue uma panela, ponha no fogão e coloque fogo baixo
+27° Ponha os ingredientes conforme solicitados, a margarina com açucar
+28° Acrescente aos poucos o chocolate na panela
+29° Deixe ferver, e desligue o fogão
+30° Retirar do fogão e despejar sobre o bolo ainda quente logo após o bolo ficar pronto.
+31° Fim do algoritmo
