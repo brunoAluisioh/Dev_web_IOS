@@ -48,4 +48,4 @@ função cobertura
 28° Acrescente aos poucos o chocolate na panela
 29° Deixe ferver, e desligue o fogão
 30° Retirar do fogão e despejar sobre o bolo ainda quente logo após o bolo ficar pronto.
-31° Fim do algoritmo
+31° Fim do algoritmo.
