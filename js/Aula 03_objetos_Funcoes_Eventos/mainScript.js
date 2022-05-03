@@ -20,3 +20,8 @@ const notebook = {
     valor: '11.996,99'
 }
 console.log (notebook);
+
+function diaseAnos(anos = 1, dias = 365) {
+    return anos * dias;
+}
+console.log(diaseAnos());
