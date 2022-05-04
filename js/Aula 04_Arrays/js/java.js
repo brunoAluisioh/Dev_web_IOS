@@ -29,6 +29,42 @@ console.log(`Chegou Silvana: ${festa}`)
 console.log(`Ficaram 4 pessoas na festa, que são: ${festa}`);
 
 
+//Segunda parte do exercício
+//Metodo Reverse
+console.log(`2° Parte do exercício:`);
+var times = ['Corinthians', 'Real Madrid', 'Barcelona', 'Brasil', 'Chelsea'];
+console.log(`Antes: ${times}`);
+times.reverse();
+console.log(`Depois: ${times}`);
+
+
+//Segunda parte do exercício
+//Metodo sort (em ordem alfabética)
+console.log(`2° Parte do exercício:`);
+var times = ['Corinthians', 'Real Madrid', 'Barcelona', 'Brasil', 'Chelsea'];
+console.log(`Times de futebol: ${times}`);
+console.log(`Antes: ${times}`);
+times.sort();
+console.log(`Depois com Ordem alfabética: ${times}`);
+
+
+//Segunda parte do exercício
+//Metodo Splice, adiciocnar novos itens na array
+console.log(`2° Parte do exercício:`);
+var times = ['Corinthians', 'Real Madrid', 'Barcelona', 'Brasil', 'Chelsea'];
+console.log(`Antes Times de futebol: ${times}`);
+// adicionando
+times.splice(2, 0, 'PSG');
+console.log(`Depois Adicionado um time na 2 posição: ${times}`);
+
+
+
+
+
+
+
+
+
 
 
 
