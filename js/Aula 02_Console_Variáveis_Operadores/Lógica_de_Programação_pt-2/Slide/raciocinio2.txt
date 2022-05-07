@@ -1,0 +1,17 @@
+Raciocinio 2 
+
+4 casais = 8 pessoas
+Isabel, Joana, Maria, Ana, Henrique, Pedro, Luís e Rogério
+
+esposa de henrique dança com o marido de Isabel
+maria nao e esposa de pedro 
+maria canta
+pedro toca piano  
+ana conversando
+rogério conversando 
+diante das afirmativas conseguimos descartar a letra A E D. 
+
+
+quem sobra luis, henrique, joana e isabel
+
+RESPOSTA: Letra B (Luís é o marido de Isabel)

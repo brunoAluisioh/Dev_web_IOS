@@ -1,0 +1,11 @@
+Raciocinio 1
+
+Tanto o Alberto quanto o Custódio nao é o saxofonista
+O Bernado nao pode ser o baterista
+aqui conseguimos identificar eliminar duas alternativas letra b e d 
+danilo nao é o baterista por conta que ja se apresentou com ele 
+aqui conseguimos identificar que o alberto é o violinista por conta de nao ter dado nenhuma pista entao conseguimos elminar a letra C e letra E 
+
+PORTANTO 
+Resposta: Letra  A (Danilo, Bernardo, Custódio, Alberto).
+
