@@ -20,6 +20,5 @@ var leroLero3 = (leroLero.split(' '));
 console.log(leroLero3)
 console.log(leroLero3[13])
 
-
 // String inteira em Maiúsculo
 console.log(leroLero.toUpperCase());
