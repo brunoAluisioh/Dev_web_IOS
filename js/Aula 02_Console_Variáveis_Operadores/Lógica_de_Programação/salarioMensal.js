@@ -11,11 +11,9 @@ const informativo = ('informe o percentual de reajuste salarial');
 console.log (informativo)
 console.log (salarioPorcentagem);
 
-const resultadoSalario ='Seu salário atual é de R$: ${salarioAtual} reias.';
+const resultadoSalario =`Seu salário atual é de R$: ${salarioAtual} reias.`;
 console.log (resultadoSalario);
-const resultadoPorcentagem = 'Seu valor com o reajuste será de: R$: ${salarioAtual * salarioReajuste} reias.';
+const resultadoPorcentagem = `Seu valor com o reajuste será de: R$: ${salarioAtual * salarioPorcentagem} reias.`;
 console.log (resultadoPorcentagem);
-const resultadoAjustado = 'Seu valor correto contando com o reajuste será de: R$ ${salarioAjustado} reias.';
+const resultadoAjustado = `Seu valor correto contando com o reajuste será de: R$ ${salarioAjustado} reias.`;
 console.log (resultadoAjustado);
-
-
