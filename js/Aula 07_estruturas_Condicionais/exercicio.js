@@ -33,15 +33,72 @@ const inss = [
     [3641, 7087, 0.14], // 14.00% divido por 100 
 ];
 
-console.clear();
-if (colaboradores[0].vinculo == 'CLT') {
-    const valor = colaboradores[0].salario;
-    if (valor < 7087)
-    console.log(`O colaborador ${colaboradores[0].nome} pertence a contratação CLT e sua contribuição conforme a Tabela do Inss de 2022 é de: ${(valor * 14) / 100} reais.`); //5000*14%= 700
+
+// Contador 1
+var valor = colaboradores[0].salario 
+if (colaboradores[0].vinculo == "PJ" ) {
+    var inss1 = 0
 }
+else if (valor > 7087) {
+    var inss1 = 0.14 * 7087
+}
+else if (valor > 3641) {
+    var inss1 = 0.14 * valor
+}
+else if (valor > 2427) {
+    var inss1 = 0.12 * valor
+}
+else if (valor > 1212) {
+    var inss1 = 0.09 * valor
+}
+else {
+    var inss1 = 0.075 * valor
+}
+console.log(`O salario de: ${valor} paga de inss ${inss1.toFixed(2)} reias. Vínculo ${colaboradores[0].vinculo}`)
 
+// Contador 2
+var valor = colaboradores[1].salario 
+if (colaboradores[1].vinculo == "CLT") {
+    var inss1 = 0
+}
+else if (valor > 7087) {
+    var inss1 = 0.14 * 7087
+}
+else if (valor > 3641) {
+    var inss1 = 0.14 * valor
+}
+else if (valor > 2427) {
+    var inss1 = 0.12 * valor
+}
+else if (valor > 1212) {
+    var inss1 = 0.09 * valor
+}
+else {
+    var inss1 = 0.075 * valor
+}
+console.log(`O salario de: ${valor} paga de inss ${inss1.toFixed(2)} reias. Vínculo ${colaboradores[1].vinculo}`)
 
-
+//Contador 3
+var valor = colaboradores[2].salario 
+if (colaboradores[2].vinculo == "CLT") {
+    var inss1 = 0
+}
+else if (valor > 7087) {
+    var inss1 = 0.14 * 7087
+}
+else if (valor > 3641) {
+    var inss1 = 0.14 * valor
+}
+else if (valor > 2427) {
+    var inss1 = 0.12 * valor
+}
+else if (valor > 1212) {
+    var inss1 = 0.09 * valor
+}
+else {
+    var inss1 = 0.075 * valor
+}
+console.log(`O salario de: ${valor} paga de inss ${inss1.toFixed(2)} reias. Vínculo ${colaboradores[2].vinculo}`)
 
 
 
