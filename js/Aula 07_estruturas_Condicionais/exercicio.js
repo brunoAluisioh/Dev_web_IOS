@@ -98,7 +98,7 @@ else if (valor > 1212) {
 else {
     var inss1 = 0.075 * valor
 }
-console.log(`O salario de: ${valor} paga de inss ${inss1.toFixed(2)} reias. Vínculo ${colaboradores[2].vinculo}`)
+console.log(`O colaborador ${colaboradores[2].nome}: Recebe de salário ${valor} e conforme a tabela de inss 2022 paga: ${inss1.toFixed(2)} reias. Seu vínculo pela empresa é ${colaboradores[2].vinculo}`)
 
 
 
