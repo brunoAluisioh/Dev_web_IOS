@@ -77,7 +77,7 @@ else if (valor > 1212) {
 else {
     var inss1 = 0.075 * valor
 }
-console.log(`O vínculo de Brenno é ${colaboradores[1].vinculo}, (Portanto não paga Inss) e seu salário é de R$: ${valor} reias`)
+console.log(`O vínculo de Brenno é ${colaboradores[1].vinculo}, (Portanto não paga Inss) e seu salário é de R$: ${valor} reias.`)
 
 //Contador 3
 var valor = colaboradores[2].salario 
@@ -121,7 +121,7 @@ else if (valor > 1212) {
 else {
     var inss1 = 0.075 * valor
 }
-console.log(`O vínculo de Julia é ${colaboradores[3].vinculo}, (Portanto não paga Inss) e seu salário é de R$: ${valor} reias`)
+console.log(`O vínculo de Julia é ${colaboradores[3].vinculo}, (Portanto não paga Inss) e seu salário é de R$: ${valor} reias.`)
 
 //Contador 5
 var valor = colaboradores[4].salario 
