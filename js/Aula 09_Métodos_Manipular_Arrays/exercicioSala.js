@@ -6,15 +6,20 @@
 const alunos = [
     {nome: 'Bruno', idade: 21, turma: 'ADS', nota: 10},
     {nome: 'Eduardo', idade: 18, turma: 'ADS', nota: 6},
-    {nome: 'Luiz', idade: 25, turma: 'ADS', nota: 9},
-    {nome: 'Neymar', idade: 32, turma: 'ADS', nota: 8},
+    {nome: 'Luiz', idade: 25, turma: 'ADS', nota: 5},
+    {nome: 'Neymar', idade: 32, turma: 'ADS', nota: 3},
 ];
 
 alunos.forEach((pessoa) => console.log(pessoa.nome))
 
-let filtroAlunos = nome.filter((nota)=> {
-    return nota >= 6;
+const mapNome = alunos.map((valor)=> {
+    return valor.nome
 })
-console.log(filtroAlunos)
+console.log(mapNome);
+
+const mapNota = alunos.map((valor)=> {
+    return valor.nota >= 6;
+})
+console.log(mapNota);
 
 
