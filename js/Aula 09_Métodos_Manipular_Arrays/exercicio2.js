@@ -31,5 +31,5 @@ else if(media == 7) {
 }
 
 else {
-    console.log(`Infelizmente não atingiu a média necessária estabelecida pela escola`)
+    console.log(`Infelizmente não atingiu a média necessária estabelecida pela escola.`)
 }

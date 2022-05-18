@@ -13,4 +13,3 @@ let filtroMenor = valor.filter((menor)=>{
 })
 console.log(filtroMenor)
 
-console.log('Nome e alunos')
