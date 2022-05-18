@@ -6,20 +6,18 @@
 const alunos = [
     {nome: 'Bruno', idade: 21, turma: 'ADS', nota: 10},
     {nome: 'Eduardo', idade: 18, turma: 'ADS', nota: 6},
-    {nome: 'Luiz', idade: 25, turma: 'ADS', nota: 5},
+    {nome: 'Luiz', idade: 25, turma: 'ADS', nota: 6},
     {nome: 'Neymar', idade: 32, turma: 'ADS', nota: 3},
 ];
 
 alunos.forEach((pessoa) => console.log(pessoa.nome))
 
-const mapNome = alunos.map((valor)=> {
-    return valor.nome
-})
-console.log(mapNome);
-
-const mapNota = alunos.map((valor)=> {
+const mapNota = alunos.filter((valor)=> {
     return valor.nota >= 6;
 })
 console.log(mapNota);
 
-
+let menorNota = alunos.find((nota)=>{ 
+    return nota.nota < 5
+})
+console.log(menorNota)
