@@ -23,7 +23,7 @@ lorem.innerText = 'Manipulando Dom'
 article.appendChild(lorem);
 
 let text = document.createElement('p')
-text.innerText = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti dolorum, dolorem vero provident eaque necessitatibus quia natus explicabo possimus eum. Sit magnam quo nisi sed sint harum et iusto.'
+text.innerText = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint deleniti dolorum, dolorem vero provident eaque necessitatibus quia natus explicabo possimus eum.. Sit magnam quo nisi sed sint harum et iusto.'
 article.appendChild(text);
 
 
