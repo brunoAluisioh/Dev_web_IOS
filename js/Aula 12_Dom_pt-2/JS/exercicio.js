@@ -29,12 +29,17 @@ const Mensagem = () => {
     let usuario = prompt ('Seja Bem-Vindo(a); por favor preencha seu nome:')
 
     // comando innerHTML Faz aparecer na tela 
-    document.body.innerHTML = (`Olá ${usuario}, Bem-vindo a nossa academia.`);
+    let paragrafo = document.createElement('p')
+    paragrafo.innerHTML = (`Olá ${usuario}, Bem-vindo a nossa academia.`);
+    document.body.appendChild(paragrafo)
 }
 
 const tabuada = () => {
-    let vezes = prompt ('Por favor preencher um número para multiplicação:');
-    
+    let vezes = parseInt (prompt ('Por favor preencher um número para multiplicação:'));
+    if ( isNaN(vezes)) {
+        alert('Insira um valor numérico')
+        return;
+    }
     for(let contador = 1; contador <= 10; contador++) {
         document.write(`${vezes} X ${contador} = ${vezes * contador} <br/>`);
     }
