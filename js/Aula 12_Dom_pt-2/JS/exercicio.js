@@ -15,7 +15,6 @@ btns[2].style.backgroundColor = '#BFBFBF';
 btns[2].style.margin = '.7rem';
 
 const AlertCookie = () => {
-    alert('Imagem da Série Umbrella Academy')
     let serie = document.createElement('serie'); //cria um elemento dentro do html
     document.body.appendChild(serie); //(appenChild) = inclui um filho dentro de um elemento pai
 
@@ -23,6 +22,10 @@ const AlertCookie = () => {
     img.src = './img/serie_Umbrella_Academy.png';
     serie.appendChild(img);
     document.body.style.backgroundColor = '#262525';
+    img.style.maxWidth = '40%';
+    img.style.margin = '0 auto';
+    img.style.display = 'block';
+    img.style.marginTop = '70px';
 }
 
 const Mensagem = () => {
@@ -32,6 +35,8 @@ const Mensagem = () => {
     let paragrafo = document.createElement('p')
     paragrafo.innerHTML = (`Olá ${usuario}, Bem-vindo a nossa academia.`);
     document.body.appendChild(paragrafo)
+    document.body.style.color = 'yellow';
+    document.body.style.fontSize = '1.8rem'
 }
 
 const tabuada = () => {
