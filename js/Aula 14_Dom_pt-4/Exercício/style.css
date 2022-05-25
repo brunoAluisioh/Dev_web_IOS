@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: wheat;
+    background-image: url('https://img.freepik.com/fotos-gratis/foto-plana-de-mesa-de-escritorio-com-fundo-de-espaco-de-copia-para-laptop_1150-45598.jpg?w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: rgba(15, 15, 15, 0.699);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 450px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    background-color: rgba(211, 187, 157, 0.822);
+    margin-top: 3em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.B_1 {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px 0;
+    border: 2px solid white;
+    font-size: 1rem;
+}
+.B_1:hover {
+    background: #444;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.B_2 {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+    margin: 5px 0;
+    border: 2px solid white;
+    font-size: 1rem;
+}
+.B_2:hover {
+    background: #444;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+
