@@ -10,12 +10,12 @@
 
     <body>
         <header>
-            <h1 id="h1">Formúlario do Cliente</h1>
+            <h1 id="h1">Formulário do Cliente</h1>
         </header>
 
         <section class="container">
             <form id="form">
-                <h1>Informação do usúario</h1>
+                <h1>Dados de Contato</h1>
                 <div>
                     <label for="name">Nome:</label> <br>
                     <input type="text" id="name" required>
@@ -37,11 +37,17 @@
                 </div>
                 <br>
                 <div>
-                    <button class="B_1" type="submit" value="Incluir">Incluir</button>
-                    <button class="B_2" type="submit" value="Excluir">Excluir</button>
+                    <button class="B_1" type="submit" value="Add" id="adicionar">Adicionar</button>
+                    <button class="B_2" type="submit" value="Del" id="excluir">Excluir</button>
                 </div>
             </form>
         </section>
+
+        <section class="container">
+            <h2>Usuários</h2>
+            <ul id="add"></ul>
+        </section>
+
         <script src="./script.js"></script>
     </body>
 </html>

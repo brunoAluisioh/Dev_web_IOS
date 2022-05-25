@@ -68,4 +68,19 @@ header {
     color: #fff;
 }
 
+#form label {
+    display: block;
+}
+#form input[type='text'] {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#form h1 {
+    padding-bottom: 7%;
+    text-align: center;
+}
+
 
