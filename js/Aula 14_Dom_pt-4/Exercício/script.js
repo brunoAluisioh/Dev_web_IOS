@@ -31,7 +31,9 @@ function adduser(e) {
         return;
     }
     var li = document.createElement('li');
-    li.innerText = `${nome.value}, ${nasc.value}, ${email.value}`;
+    li.innerText = `${nome.value}, ${nasc.value}, ${email.value}`; 
+    li.style.textAlign = 'center'
+    li.style.listStylePosition = 'inside'
     users.appendChild(li);
 }
 
