@@ -21,7 +21,7 @@ header {
     margin: auto;
     width: 450px;
     overflow: auto;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     background-color: rgba(211, 187, 157, 0.822);
     margin-top: 3em;
     border: 2px solid black;
@@ -70,6 +70,7 @@ header {
 
 #form label {
     display: block;
+    
 }
 #form input[type='text'] {
     width: 100%;
@@ -78,9 +79,32 @@ header {
     border-radius: 10px;
     border: 1px solid black;
 }
+
+#form input[type='number'] {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 #form h1 {
     padding-bottom: 7%;
     text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: auto;
+    height: 50%;
 }
 
 
