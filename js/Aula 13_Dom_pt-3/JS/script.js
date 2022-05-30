@@ -74,7 +74,7 @@ const resetar = () => {
     msg.remove();
     tab.remove();
 };
-btnDelete.addEventListener('click', resetar)
+btnDelete.addEventListener('click', resetar);
 
 
 
