@@ -27,6 +27,9 @@ document.body.appendChild(tab)
 document.body.appendChild(figure)
 document.body.appendChild(img)
 
+//Estilo
+window.document.body.style.backgroundColor = 'black'
+
 //Criando função
 const imagem = () => {
     let serie = document.createElement('serie');
@@ -44,8 +47,9 @@ const mensagem = () => {
     let usuario = prompt ('Seja Bem-Vindo(a); por favor preencha seu nome:')
     let paragrafo = document.createElement('p')
     paragrafo.innerHTML = (`Olá ${usuario}, Bem-vindo a nossa academia.`);
+    paragrafo.style.background = 'white'
+    paragrafo.style.color = 'black'
     msg.appendChild(paragrafo)
-    document.body.style.color = 'black';
     document.body.style.fontSize = '1.8rem'
 };
 btn2.addEventListener('click', mensagem);
@@ -61,6 +65,7 @@ const tabuada = () => {
         for(i = 1; i <= 10; i++) {
             let conta = document.createElement('p')
             conta.style.fontSize = '1.3rem'
+            conta.style.color = 'white'
             conta.innerHTML = (`${i} X ${num} = ${i * num} <br/>`);
             tab.appendChild(conta);
         }
