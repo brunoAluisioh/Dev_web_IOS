@@ -1,3 +1,4 @@
+//Criando um Array de objetos
 const itens = [
     {
         item: 'Feijão',
@@ -29,8 +30,8 @@ const itens = [
 
 //Chamando pelo Id
 let form = document.getElementById('addForm');
-let valor = document.getElementById('preco');
 let itemList = document.getElementById('items');
+let valor = document.getElementById('preco');
 let filter = document.getElementById('filter');
 
 //Evento = adicionar item 
