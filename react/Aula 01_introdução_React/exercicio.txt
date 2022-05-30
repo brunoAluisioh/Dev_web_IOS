@@ -1,0 +1,39 @@
+1.0 O que é React? 
+
+O React consiste em uma biblioteca que utiliza a linguagem de programação JavaScript. Sendo assim, utilizamos para a criação de interfaces do usuário 
+UI (user interface).
+Referência -> https://kenzie.com.br/blog/react/
+
+
+2. Diferença entre biblioteca e frameworks:
+
+Biblioteca consiste em uma ferramenta para soluções por meio de funções e métodos, podemos ter diversos recursos para utilizar.
+Sendo assim, posso usar alguns funções que seja úteis pra minha aplicação no projeto. 
+
+Framework consiste em (conjunto) de bibliotecas, códigos … aonde eu crio um padrão pra mim trabalhar com elas.
+# Pra mim usar framework o meu código tem que respeitar a forma como framework trabalha.
+
+Diferença entre eles: Se eu utilizar framework meu código vai estar amarrado com ele. Então se amanhã ou depois o meu framework deixa de se usado ou até mesmo se torne obsoleto ainda vou continuar com meu código amarrado nele. 
+Já a biblioteca eu posso usar no meu código e programar da minha forma 
+
+Referência -> https://youtu.be/kOt_DdAnMbc
+
+
+3. O que são Props?
+
+São valores passados para os componentes. Exemplo um componente filho vai receber uma propriedade do componente pai.
+https://youtu.be/1OabKcdb__M
+
+
+4. O que são Hooks?
+
+Consiste em tornar o código mais legível e objetivo.
+Referência -> https://blog.betrybe.com/tecnologia/react-hooks/amp/
+
+
+5. O que são componentes: 
+
+Os componentes são utilizados para reaproveitamento de código e padronização de interface.
+São partes de um site, aonde eu consigo separar cada parte do meu código em um componente separado 
+
+Referência -> https://youtu.be/T98gEcFTnC0
