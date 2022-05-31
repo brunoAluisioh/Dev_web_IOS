@@ -80,6 +80,3 @@ const resetar = () => {
     tab.remove();
 };
 btnDelete.addEventListener('click', resetar);
-
-
-
