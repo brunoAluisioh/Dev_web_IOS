@@ -37,23 +37,24 @@
     <section class="container text-dark border border-dark border-1 bg-dark" style="opacity: 0.8;">
         <div id="main" class="card card-body">
             <h2 class="title">Adicionar:</h2>
+            <hr>
 
             <!-- Criando campos -->
             <form id="addForm" class="d-flex justify-content-center align-items-end mb-8">
 
                 <div class="d-flex flex-column">
                     <label for="item-name" class="form-label fs-4">Item</label>
-                    <input type="text" maxlength="20" id="item-text" class="form-control">
+                    <input type="text" maxlength="20" id="item-text" class="form-control" required placeholder="digite o item...">
                 </div>
 
                 <div class="d-flex flex-column mx-5">
                     <label for="item-value" class="form-label fs-4">Quantidade</label>
-                    <input type="number" id="item-number" class="form-control">
+                    <input type="number" id="item-number" class="form-control" required placeholder="digite a quantidade...">
                 </div>
 
                 <div class="d-flex flex-column">
                     <label for="item-quantity" class="form-label fs-4">Valor</label>
-                    <input type="number" id="item-preco" class="form-control">
+                    <input type="number" id="item-preco" class="form-control" required placeholder="digite o valor...">
                 </div>
 
                 <!-- Criando botão -->
@@ -69,18 +70,6 @@
         <div id="main" class="card card-body">
             <h2 class="title">Meu Carrinho:</h2>
             <ul id="items" class="list-group">
-                <li class="list-group-item">
-                    Arroz
-                    <button class="btn btn-danger btn-sm float-end delete">
-                        X
-                    </button>
-                </li>
-                <li class="list-group-item">
-                    Feijão
-                    <button class="btn btn-danger btn-sm float-end delete">
-                        X
-                    </button>
-                </li>
             </ul>
         </div>
     </div>
@@ -88,6 +77,9 @@
     <div class="container text-dark border border-dark border-1 bg-dark" style="opacity: 0.8;">
         <div id="preco" class="card card-body">
             <h2>Valor Total:</h2>
+            <ul id="total" class="list-group">
+
+            </ul>
         </div>
     </div>
 
