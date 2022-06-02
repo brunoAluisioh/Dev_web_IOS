@@ -1,6 +1,5 @@
 //Criando um Array de objetos
 const itens = [
-
 ]
 
 //Chamando pelo Id
@@ -13,7 +12,6 @@ let filter = document.getElementById('filter');
 form.addEventListener('submit', addItem);
 // Evento = remover item 
 
-
 //Pra não carregar a página
 function addItem(e) {
     e.preventDefault();
@@ -22,14 +20,13 @@ function addItem(e) {
     let newNumber = document.getElementById('item-number').value;
     let newPreco = document.getElementById('item-preco').value;
     if (newNumber >0 && newPreco >0) {
-    let descricao = `${newText} - Quantidade: ${newNumber} - Preço R$: ${newPreco}`
+    let descricao = `${newText} - Quantidade: ${newNumber} - Preço R$: ${newPreco * newNumber}`
     let li = document.createElement('li');
     li.className = 'list-group-item';
     li.appendChild(document.createTextNode(descricao));
     li.quantidadeItem = newNumber
     li.nomeItem = newText
     li.precoItem = newPreco
-
 
     let addBtn = document.createElement('button');
     addBtn.className = 'btn btn-success btn-sm m-1 float-end adicionar';
@@ -60,13 +57,12 @@ function removeItem() {
 //Função diminuir item
 function diminuirItem() {
     let diminuir = newNumber -- 
-    let descricao = `${li.nomeItem} - Quantidade: ${li.quantidadeItem -=1} - Preço R$: ${li.precoItem / li.quantidadeItem}`
+    let descricao = `${li.nomeItem} - Quantidade: ${diminuir} - Preço R$: ${li.precoItem * diminuir}`
     li.innerText = descricao
 }
-}
-}
 
+}
 else {
     alert(`Insira uma quantidade maior que 0`);
 }
-
+}
