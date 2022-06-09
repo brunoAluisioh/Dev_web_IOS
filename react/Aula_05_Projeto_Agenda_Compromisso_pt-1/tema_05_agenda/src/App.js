@@ -24,10 +24,30 @@ function App() {
         },
     ]);
 
+    // Deletar tarefa
+    const deletaTarefa = (id) => {
+        setTasks(tasks.filter((task) => task.id !== id));
+    };
+    // Alterar o reminder
+    const mudarReminder = (id) => {
+        setTasks(
+            tasks.map((task) =>
+                task.id === id ? { ...task, reminder: !task.reminder } : task
+            )
+        );
+        console.log(id);
+    };
+
     return (
         <div className="container">
             <Header title="tarefas" />
-            <Tasks tasks={tasks} />
+            {tasks.length > 0 ? (
+                <Tasks tasks={tasks} 
+                onDelete={deletaTarefa}
+                onToggle={mudarReminder} />
+            ) : (
+                'Você não tem tarefas, pode tirar férias!'
+            )}
         </div>
     );
 }
