@@ -10,11 +10,14 @@ const NewTasks = ({ title }) => {
     );
 };
 
-export default NewTasks;
-Header.defaultProps = {
-    title: 'compromissos',
+
+NewTasks.defaultProps = {
+    title: 'Afazer',
 };
 
-Header.propTypes = {
+NewTasks.propTypes = {
     title: PropTypes.string.isRequired,
 };
+
+export default NewTasks;
+
