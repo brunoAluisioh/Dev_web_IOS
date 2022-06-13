@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const NewTasks = ({ title, onClick  }) => {
      return (
         <header className='header'>
-            <h1>Agenda de {title}</h1>
+            <h1>{title}</h1>
             <Button bgColor="green" text="Adicionar" onClick={onClick} />
         </header>
     );

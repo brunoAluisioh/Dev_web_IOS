@@ -26,20 +26,20 @@ function App() {
         },
         {
             id: 4,
-            serie: 'Primeira Morte',
-            lancamento: '10 de Junho de 2022',
+            serie: 'La casa de papel',
+            lancamento: '2 de Maio de 2017',
             reminder: true,
         },
         {
             id: 5,
-            serie: 'O Verão que Mudou Minha Vida',
-            lancamento: '17 de Junho de 2022',
+            serie: 'Dark',
+            lancamento: '1 de Dezembro de 2017',
             reminder: true,
         },
         {
             id: 6,
-            serie: 'Intimidade',
-            lancamento: '10 de Junho de 2022',
+            serie: 'Peaky Blinders',
+            lancamento: '12 de Setembro de 2013',
             reminder: true,
         },
     ]);
