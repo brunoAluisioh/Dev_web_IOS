@@ -66,7 +66,7 @@ function App() {
 
     return (
         <div className="container">
-            <NewTasks title="Lançamentos de Séries:" />
+            <NewTasks title="Minha lista de Série:" />
             {tasksOpen.length > 0 ? (
                 <TasksOpen
                     tasksOpen={tasksOpen}

@@ -1,11 +1,11 @@
 const TasksDone = ({tasksDone, onDelete}) => {
     return (
         <div>
-            <h1>Task Done</h1>
+            <h2>Task Done:</h2>
 
             <ul>
                 {tasksDone.map((task)=> <li className='reminder-false' key={task.id}>{task.serie}, {task.lancamento}
-                <button onClick={() => onDelete(task.id)}>x</button></li>)}
+                <button className="button" onClick={() => onDelete(task.id)}>x</button></li>)}
             </ul>
         </div>
         )
